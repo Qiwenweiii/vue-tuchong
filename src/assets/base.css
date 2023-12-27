@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+*:focus-visible {
+  outline: none;
+}
+
+:root {
+  --color-primary: #fd2866;
+  --color-secondary: #fd5385;
+  --color-primary-dark: #9e0030;
+  --color-bg-gray: #f7f7f7;
+}
+
+html {
+  font-family: -apple-system, PingFang SC, BlinkMacSystemFont, Arial, Hiragino Sans GB, Microsoft YaHei,
+    WenQuanYi Micro Hei, sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
